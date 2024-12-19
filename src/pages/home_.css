@@ -1,0 +1,48 @@
+.rules-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.rules-box {
+  background: rgba(126, 126, 126, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: left;
+}
+
+.rules-box p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.rules-list {
+  padding-left: 0;
+}
+
+.rules-list li {
+  margin-bottom: 10px;
+  font-size: 0.94em;
+  margin-left: 10px;
+}
+
+.start-button {
+  margin-top: 25px;
+  padding: 9px 19px;
+  font-size: 1em;
+  background-color: #00a20b; 
+  color: rgb(223, 223, 223);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #007200; 
+}
